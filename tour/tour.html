@@ -27,6 +27,45 @@
     .plcRouteList{
         background-color: white;
     }
+
+    .pic{
+        border-radius: 50%;
+    }
+
+    .title{
+        position: absolute;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        white-space: nowrap;
+        top: 5px;
+        left: 45px;
+        line-height: 40px;
+        /*border: 1px solid black;*/
+    }
+    .bottom{
+        position: absolute;
+        top: 340px;
+        left: 270px;
+    }
+    .face{
+        float: left;
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+        /*color: white;*/
+    }
+    .day{
+        position: absolute;
+        background-color: green;
+        top: 30px;
+        left: 700px;
+        border-radius: 50%;
+        color:red;
+        text-align: center;
+        line-height: 35px;
+    }
 </style>
 <body>
     <header>
@@ -37,5 +76,14 @@
   <a href="http:www.bing.com">
      <img src="images/fengjing.jpg" alt="" width="540px">
   </a>
+  <div class="bottom">
+      <p class="face">
+         <img src="images/touxiang.jpg" alt="" width="40" height="40" class="pic">     
+      </p>
+     
+     <h2 class="title">我的旅游行程</h2>
+  </div>
+
+  <p class="day">14天</p>
 </section>
 </html>
