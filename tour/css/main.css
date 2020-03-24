@@ -1,0 +1,131 @@
+    html{
+        background-color: #f5f5f5;
+    }
+
+    body{
+        background-color: chocolate;
+        max-width: 540px;
+        margin: auto;
+        padding-top: 1px;
+    }
+    h1{
+        text-align:  center;
+        font-size: 35px;
+        color: white;
+    }
+    .qui-header{
+        background-color: darkcyan;
+        height: 50px;
+    }
+    .plcRouteList{
+        background-color: white;
+    }
+
+    .pic{
+        border-radius: 50%;
+    }
+
+    .title{
+        position: absolute;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        white-space: nowrap;
+        top: 5px;
+        left: 50px;
+        line-height: 40px;
+        /*border: 1px solid black;*/
+    }
+
+    .notitle{
+        position: absolute;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        white-space: nowrap;
+        top: 5px;
+        left: 50px;
+        line-height: 40px;
+        /*border: 1px solid black;*/
+    }
+
+    .bottom{
+        position: absolute;
+        top: 340px;
+        left: 470px;
+    }
+    .nobottom{
+        position: absolute;
+        top: 650px;
+        left: 470px;
+    }
+
+    .face{
+        float: left;
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+        left: 200px;
+        /*color: white;*/
+    }
+
+    .noface{
+        float: left;
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+        left: 200px;
+        top: 680px;
+        /*color: white;*/
+    }
+
+    .day{
+        position: absolute;
+        background-color: green;
+        top: 100px;
+        left: 930px;
+        border-radius: 50%;
+        color:red;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .noday{
+        position: absolute;
+        background-color: green;
+        top: 450px;
+        left: 930px;
+        border-radius: 50%;
+        color:red;
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+    .em{
+        font-weight: bolder;
+        font-style: normal;
+        
+    }
+
+    .span{
+        margin-left: 100px;
+    }
+
+    .qui-aside{
+        height: 750px;
+        width: 150px;
+        border: 2px black;
+        background-color: #2d3741;        
+    }
+
+    .ul{
+        list-style: none;
+    }
+    .nav-aside{
+        font-size: 16px;
+        color: brown;
+        text-decoration: none;
+    }
