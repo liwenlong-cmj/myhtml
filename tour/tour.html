@@ -39,14 +39,14 @@
         color: white;
         white-space: nowrap;
         top: 5px;
-        left: 45px;
+        left: 50px;
         line-height: 40px;
         /*border: 1px solid black;*/
     }
     .bottom{
         position: absolute;
         top: 340px;
-        left: 270px;
+        left: 470px;
     }
     .face{
         float: left;
@@ -54,17 +54,21 @@
         border-radius: 50%;
         width: 39px;
         height: 39px;
+        left: 200px;
         /*color: white;*/
     }
     .day{
         position: absolute;
         background-color: green;
         top: 30px;
-        left: 700px;
+        left: 950px;
         border-radius: 50%;
         color:red;
         text-align: center;
         line-height: 35px;
+    }
+    .em{
+        font-weight: bolder;
     }
 </style>
 <body>
@@ -83,7 +87,37 @@
      
      <h2 class="title">我的旅游行程</h2>
   </div>
-  <h3>城市</h3><h4>昆明-香格里拉-西藏</h4>
+  <div>
+    <em>
+        城市
+    </em>
+    <span>
+        昆明-香格里拉-西藏
+    </span>      
+  </div>
   <p class="day">14天</p>
 </section>
+
+<section class="plcRouteList">
+    <a href="http:www.baidu.com">
+       <img src="images/华东.jpg" alt="" width="540px">
+    </a>
+    <div class="bottom">
+        <p class="face">
+           <img src="images/touxiang.jpg" alt="" width="40" height="40" class="pic">     
+        </p>
+       
+       <h2 class="title">我的旅游行程</h2>
+    </div>
+    <div>
+      <em>
+          城市
+      </em>
+      <span>
+          北京-常州-苏州
+      </span>      
+    </div>
+    <p class="day">15天</p>
+  </section>      
+</body>
 </html>
